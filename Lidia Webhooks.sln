@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lidia.Webhooks", "Lidia.Webhooks\Lidia.Webhooks.csproj", "{3663FCC3-E1BF-42A0-8047-567DC4941B5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lidia.Webhooks.Models", "Lidia.Webhooks.Models\Lidia.Webhooks.Models.csproj", "{A6E80B75-C5DE-4A61-81A1-57A81982CD85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Metafiles", "Metafiles", "{DF771687-F695-46EE-BB93-976706DF0364}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lidia.Webhooks.Tests.App", "Lidia.Webhooks.Tests.App\Lidia.Webhooks.Tests.App.csproj", "{5D30493B-853D-4A67-8ADB-A894236B9C1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{B1376D1F-8C8D-42B6-9CFF-FE162E4CC973}"
+	ProjectSection(SolutionItems) = preProject
+		Setup\Database.sql = Setup\Database.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3663FCC3-E1BF-42A0-8047-567DC4941B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3663FCC3-E1BF-42A0-8047-567DC4941B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3663FCC3-E1BF-42A0-8047-567DC4941B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3663FCC3-E1BF-42A0-8047-567DC4941B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6E80B75-C5DE-4A61-81A1-57A81982CD85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E80B75-C5DE-4A61-81A1-57A81982CD85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E80B75-C5DE-4A61-81A1-57A81982CD85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E80B75-C5DE-4A61-81A1-57A81982CD85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D30493B-853D-4A67-8ADB-A894236B9C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D30493B-853D-4A67-8ADB-A894236B9C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D30493B-853D-4A67-8ADB-A894236B9C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D30493B-853D-4A67-8ADB-A894236B9C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBA2E5B7-51CA-40C1-A8C9-9D3BCB19584D}
+	EndGlobalSection
+EndGlobal
